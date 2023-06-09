@@ -1,0 +1,23 @@
+{
+    "level_name":"simple_parabola",
+    "target_function":{
+        "type": "piecewise",
+        "subfunctions":[
+            {
+                "interval_start":"-inf",
+                "interval_end":"+inf",
+                "function":"x**2+2*x+1"
+            }
+        ]
+    },
+    "display":{
+        "sizex":6,
+        "sizey":6,
+        "pixels_in_one_x_scale":200,
+        "origin":{
+            "x":-4.0,
+            "y":-1.0
+        }
+    },
+    "start_pos":-3.0
+}
